@@ -18,6 +18,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import BackButton from "./backButton"
 
 export function CardWithForm() {
   return (
@@ -55,7 +56,8 @@ export function CardWithForm() {
         </form>
       </CardContent>
       <CardFooter className="flex justify-between">
-        <Button variant="outline">Voltar</Button>
+        {/* <Button variant="outline">Voltar</Button> */}
+        <BackButton />
         <Button>Entrar</Button>
       </CardFooter>
     </Card>
