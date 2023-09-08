@@ -19,6 +19,10 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import BackButton from "./backButton"
+import LoginButton from "@/components/loginButton"
+
+
+
 
 export function CardWithForm() {
   return (
@@ -56,9 +60,8 @@ export function CardWithForm() {
         </form>
       </CardContent>
       <CardFooter className="flex justify-between">
-        {/* <Button variant="outline">Voltar</Button> */}
+        <LoginButton />
         <BackButton />
-        <Button>Entrar</Button>
       </CardFooter>
     </Card>
   )
